@@ -1,0 +1,6 @@
+intab = bytes('abcdefghijklmnopqrstuvwxyz','utf8')
+outtab = bytes('cdefghijklmnopqrstuvwxyzab','utf8')
+trantab = bytes.maketrans(intab, outtab)
+str = 'map'
+print (str.translate(trantab))
+#input the answer in place of map in the url
